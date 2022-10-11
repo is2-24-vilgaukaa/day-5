@@ -1,0 +1,222 @@
+*
+{
+font-family: Comic Sans Ms; 
+color: rgb(255, 255, 255); 
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+font-size: 20;
+}
+
+header
+{
+text-align: center;
+background: url(../picture/fons.jpg);
+background-size: 100%;
+padding: 10;
+}
+
+.head img
+{
+width: 400;
+height: 180; 
+}
+
+body
+{
+background: linear-gradient(to bottom, #ffebcc, #f0c57c,#ff95958b);
+}
+
+
+footer 
+{ 
+text-align: center;
+background: url(../picture/foot.jpg);
+background-size: 30%;
+margin-top: 40;
+padding: 20;
+}
+
+footer img
+{
+text-align: center;
+height: 90;
+}   
+
+.foote img
+{
+text-align: center;
+padding: 20;
+height: 50;
+width: 50;
+margin-top: 10;
+} 
+
+.foote
+{
+margin-top: 10;
+}
+
+.foote a
+{
+text-decoration: none;
+}
+
+.contacts
+{
+text-align: center;
+}
+
+.contacts img
+{
+width: 50;
+height: 50;
+}
+
+.content
+{ 
+text-align: center; 
+padding: 16px 15px;
+background: url(../picture/fons.jpg); 
+background-attachment: fixed;
+background-size: 100%;
+}
+
+.cont
+{
+text-align: center;
+}
+
+.cont img
+{
+width: 450;
+height: 300;  
+padding: 10;
+transition: 1s;
+}
+
+.cont img:hover
+{
+transform: scale(1.1);
+}
+
+table
+{
+padding: 30;
+text-align: center;
+}
+
+
+details 
+{
+margin: 10px;
+}
+
+summary {
+text-align: center;
+padding: 12px 10px;
+width: 23px;
+height: 17px;
+background-color: #ffebcc;
+border: 2px solid #6e4217;
+border-radius: 4px;
+color: #6e4217;
+transition: transform 200ms ease-in-out 0s; /*анимация*/
+}
+
+summary:hover 
+{
+transform: scale(1.1); /*анимация*/
+}
+
+summary::marker 
+{
+font-size: 0; /*убираем маркер*/
+}
+
+details[open] .menu
+{
+animation-name: menuAnim; /*открываем меню*/
+}
+
+.menu 
+{
+box-shadow: 0 4px 12px 0 rgba(81, 48, 6, 0.577); /*тень меню*/
+display: flex; /*текст в столбик*/
+flex-direction: column; /*текст в столбик*/
+justify-content: space-between; /*удаление лишних пробелов*/
+}
+
+.menu a {
+padding: 12px 24px;
+margin: 0 16px;
+color: #6e4217;
+border-bottom: 2px solid rgb(220, 11, 11);
+text-decoration: none;
+text-align: center;
+}
+
+.menu a:nth-last-of-type(1) 
+{
+border-bottom: none; /*убираем последнее подчеркивание*/
+}
+
+.menu a:hover 
+{
+filter: brightness(200%); /*смена цвета при наведении*/
+}
+
+div#tekst /*фиксирование текста на картинке*/
+{
+position: relative;
+width: 470px;
+}
+   
+.comment img
+{
+width: 450;
+height: 350;  
+padding: 10;
+transition: 1s;
+}
+
+.comment img:hover
+{
+transform: scale(1.1);
+}
+
+table
+{
+padding: 30;
+text-align: center;
+}
+
+#tekst:hover .tekst /*время появления текста и прозрачность слоя*/
+{
+transition: 1s;
+opacity: 1;
+} 
+   
+.tekst 
+{
+position: absolute;
+bottom: 20%;
+color: #c9c9c9;
+width: 400px;
+right: 0px;
+text-align: center;
+opacity: 0; 
+transition: 2s;
+}
+    
+.tekst span 
+{
+background: #00000094;
+font-family: Comic Sans Ms; 
+color: rgb(255, 255, 255); 
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+font-size: 20;
+}
+
+
+ 
+  
+  
